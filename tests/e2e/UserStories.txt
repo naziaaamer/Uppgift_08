@@ -1,0 +1,143 @@
+User Stories:
+
+US1: As a user
+I want to add a note
+So I can add note texts and see it on screen.
+
+AC:
+User should be able to add/create the note.
+Added note should be visible to the user.
+
+Test Scenario:
+Go to the page.
+Click Add note.
+Verify the note input/editor appears.
+Enter note text.
+Click Save/Create/Add.
+Verify the note appears on the screen.
+Verify the displayed text is exactly what was entered.
+
+US3:
+As a user
+I want to delete a note
+So I do not see the note on screen.
+
+AC:
+User should be able to delete the note.
+Deleted note should not be visible anymore to the user.
+
+Test Scenario:
+Go to the page.
+Click Add note.
+Verify the note input/editor appears.
+Enter note text.
+Click Save/Create/Add.
+Verify the note appears on the screen.
+Verify the displayed text is exactly what was entered.
+click on Delete icon.
+Note should be deleted from screen.
+
+
+US2:
+
+US1: As a user
+I want to add a timer
+So I can see timer widgets on screen.
+
+AC:
+User should be able to add the timer.
+Added timer should be visible to the user.
+
+Test Scenario:
+Go to the page.
+Click Add timer.
+Verify the timer appears on screen.
+
+US4:
+As a user
+I want to delete a timer
+So I do not see the timer on screen.
+
+AC:
+User should be able to delete the timer.
+Deleted timer should not be visible anymore to the user.
+
+Test Scenario:
+Go to the page.
+Click Add timer.
+Verify the timer widget appears.
+Click delete icon.
+Verify timer widget is not visible on screen.
+
+US5:
+As a user
+I want to use arrow icon
+So I can move up widgets or reposition the widgets.
+
+AC:
+User should be able to use arrow icon to change the widget position.
+
+Test Scenario:
+Go to the web page.
+Add note with text.
+Add timer.
+Add another note with text.
+click on arrow icon.
+Widget should move up one position.
+click on the arrow icon of the last widget.
+Widget should move up only one position.
+
+
+US6:
+As a user
+I want to start, stop, reset the timer
+so I can use all the functionality of timer widget
+
+AC:
+User should be able to add timer widget.
+User should be able to start the timer.
+User should be able to pause the timer.
+User should be able to reset the timer.
+
+Test Scenario:
+Go to the web page.
+Add timer widget.
+Start timer.
+Pause timer.
+Reset timer.
+
+US7:
+As a user
+I want to edit note text
+so I can update or make changes anytime.
+
+AC:
+User should be able to edit note.
+User should be able to save edited changes.
+
+Test Scenario:
+Go to the page.
+Click Add note.
+Verify the note input/editor appears.
+Enter note text.
+Click Save/Create/Add.
+Verify the note appears on the screen.
+Verify the displayed text is exactly what was entered.
+Click on note text.
+Edit text.
+Save updated text.
+Verify edited text appears on screen.
+
+US8:
+As a user
+I want to change the theme color
+so I can use the color options from web.
+
+AC:
+User should be able to change the theme color.
+User should be able to changed color on screen.
+
+Test Scenario:
+Go to the web page.
+Click on Dark button.
+Web theme should be changed to dark color.
